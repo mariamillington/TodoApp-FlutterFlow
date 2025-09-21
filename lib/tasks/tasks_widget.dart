@@ -202,7 +202,7 @@ class _TasksWidgetState extends State<TasksWidget> {
                                 checkAction: () async {
                                   await listViewTasksRecord.reference
                                       .update(createTasksRecordData(
-                                    completed: false,
+                                    completed: true,
                                   ));
                                 },
                               ),
