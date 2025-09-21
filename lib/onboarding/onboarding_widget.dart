@@ -200,8 +200,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                                 borderRadius: 20.0,
                                 borderWidth: 1.0,
                                 buttonSize: 37.0,
-                                fillColor: FlutterFlowTheme.of(context)
-                                    .secondaryBackground,
+                                fillColor: FlutterFlowTheme.of(context).primary,
                                 icon: Icon(
                                   Icons.add,
                                   color:
