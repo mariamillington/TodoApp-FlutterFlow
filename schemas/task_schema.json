@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Task",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "title":     { "type": "string" },
+    "details":   { "type": "string" },
+    "completed": { "type": "boolean" },
+    "created":   { "type": "string", "format": "date-time" },
+    "user":      { "type": "string" }
+  },
+  "required": ["title", "completed", "created", "user"]
+}
