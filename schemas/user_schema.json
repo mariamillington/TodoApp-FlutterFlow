@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "User",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "uid":          { "type": "string" },
+    "display_name": { "type": "string" },
+    "email":        { "type": "string", "format": "email" },
+    "photo_url":    { "type": "string", "format": "uri" },
+    "created_time": { "type": "string", "format": "date-time" },
+    "birthday":     { "type": "string", "format": "date-time" },
+    "Hometown":     { "type": "string" }
+  },
+  "required": ["uid", "display_name", "email", "created_time"]
+}
